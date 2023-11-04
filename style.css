@@ -685,6 +685,117 @@ footer {
     }
 }
 
+@media (max-width: 400px) {
+    .header__button {
+        position: absolute;
+        margin-right: 40px;
+        min-width: 70px;
+    }
+
+    .header__img{
+        position: absolute;
+        margin-left: 20px;
+        min-height: 70px;
+    }
+
+    .first-section {
+        margin-top: -18vh;
+    }
+
+    .second-section {
+        min-height: 110vh;
+    }
+
+    .second-section__txt h2{
+        font-size: 25px;
+    }
+
+    .second-section__txt-3 p{
+        font-size: 20px !important;
+    }
+
+    .third-section {
+        min-height: 200vh;
+    }
+
+    .third-section__txt h2 {
+        padding: 10px 5px;
+        font-size: 25px;
+    }
+    
+    .third-section__txt p {
+        padding: 10px 5px;
+        font-size: 20px;
+    }
+
+    .third-section__cabello img,
+    .third-section__barba img {
+        width: 120px;
+        margin: 10px;
+        border-radius: 4px;
+        border: 2px solid #000;
+    }
+
+    .third-section__cabello p,
+    .third-section__barba p {
+        font-size: 15px;
+    }
+
+    .fourth-section {
+        min-height: 105vh;
+    }
+
+    .fourth-section__nuestro-equipo {
+        margin: 0 auto; /* Establece márgenes superior e inferior a 0 y margen izquierdo y derecho a "auto" */
+        max-width: 70vw !important;
+        max-height: 90vh;
+    }
+
+    .fourth-section__nuestro-equipo h2 {
+        font-size: 30px;
+        margin: 0 0;
+    }
+
+    .fourth-section__nuestro-equipo h3 {
+        font-size: 25px;
+    }
+
+    .fourth-section__nuestro-equipo p {
+        font-size: 20px;
+    }
+
+    footer {
+        min-height: 20vh;
+    }
+
+    .footer__redes-container {
+        padding-top: 10px;
+    }
+
+    .footer__redes-container img {
+        max-width: 30px;
+        height: auto;
+        margin: 0px 10px;
+    }
+    
+    .footer__redes-block{
+        margin-left: 20px;
+    }
+
+    .footer__redes-container h2 {
+        font-size: 15px;
+        margin-left: -15px;
+        min-width: 150px;
+    }
+
+    .footer_socios a{
+        display: flex;
+        font-size: 15px bold;
+        text-align: center;
+    }
+
+}
+
 @media (max-width: 600px) {
 
     body{
