@@ -938,6 +938,9 @@ footer {
         margin: 3px;
     }
 
+    .fourth-section {
+        min-height: 118vh !important;
+    }
     .footer__redes-container h2 {
         text-decoration: none;
     }
