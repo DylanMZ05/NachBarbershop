@@ -932,12 +932,18 @@ footer {
         align-items: center;
     }
 
+
     .third-section__cabello img,
     .third-section__barba img {
         padding: 0;
-        margin: 3px;
+        margin: 5px;
     }
 
+    .third-section__cabello-container, 
+    .third-section__barba-container {
+        padding: 10px 0;
+    }
+    
     .fourth-section {
         min-height: 130vh !important;
     }
