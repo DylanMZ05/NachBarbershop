@@ -847,13 +847,31 @@ footer {
 }
 
 @media (max-width: 350px) {
-    .third-section__txt h2 {
-        font-size: 40px;
-    }
-
     .footer__redes-container h2 {
         text-decoration: none;
         margin-left: 25px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .second-section__txt-3__precios {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .second-section__lista-precios {
+        margin: 10px 0 !important;
+    }
+
+    .second-section__txt-div-advertencia {
+        margin: 10px 0;
+    }
+    .second-section__sistema-socios h2 {
+        font-size: 23px;
+    }
+
+    .fourth-section__carta {
+        max-height: 240px;
     }
 }
 
@@ -953,10 +971,15 @@ footer {
 }
 
 @media (max-width: 500px) {
+
+    .fourth-section {
+        padding-bottom: 80px !important;
+    }
     .fourth-section__cartel-equipo {
         margin: 10px;
     }
 }
+
 @media (max-width: 600px) {
 
     body{
@@ -972,9 +995,6 @@ footer {
         font-size: 20px;
     }
 
-    .third-section {
-        min-height: 50vh !important;
-    }
 
     .third-section__barba img,
     .third-section__cabello img {
@@ -984,6 +1004,14 @@ footer {
     .third-section__barba p,
     .third-section__cabello p {
         font-size: 15px;
+    }
+
+    .third-section__txt h2 {
+        font-size: 30px;
+    }
+
+    .third-section_txt p {
+        font-size: 20px;
     }
 
     .fourth-section {
@@ -1048,8 +1076,17 @@ footer {
         align-items: center;
     }
 
+    .third-section__cabello-container, 
+    .third-section__barba-container {
+        padding: 10px 0;
+    }
+
     .third-section__txt {
         margin: 0 15px;
+    }
+
+    .fourth-section {
+        padding: 40px 0;
     }
 
     .fourth-section__carta {
@@ -1197,7 +1234,7 @@ footer {
     }
 
     .second-section__txt-3 {
-        margin-top: 70px !important; 
+        margin-top: 30px !important; 
     }
 
     .fourth-section__carta {
