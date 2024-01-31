@@ -782,7 +782,7 @@ footer {
 }
 
 @keyframes entry {
-    60% {
+    75% {
         opacity: 0;
     }
     100% {

@@ -194,3 +194,44 @@ footer {
         border-radius: 8px;
     }
 }
+
+
+.animation{
+    transition: transform .8s ease;
+}
+
+.animation:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+
+.header-li-a {
+    position: relative;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.header-li-a:hover {
+    color: #ffffff;
+    text-shadow: 1px 1px 5px #ffffff49;
+    cursor: pointer;
+}
+
+.header-li-a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -1px;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+    transition: width 0.3s ease, visibility 0.3s ease;
+}
+
+.header-li-a:hover::after {
+    width: 100%;
+    visibility: visible;
+}
