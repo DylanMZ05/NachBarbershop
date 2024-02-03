@@ -387,7 +387,19 @@ h1, h2, p, b {
 }
 
 .third-section__carta h2 {
-    margin-top: -25px;
+    margin-bottom: -25px;
+}
+
+.third-section__carta p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 200px;
+    text-align: center;
+    margin: 0 30px;
+    line-height: 2;
 }
 
 
@@ -594,6 +606,8 @@ footer {
 
 
 
+
+
     .fourth-section a,
     .fourth-section__barba,
     .fourth-section__cortes,
@@ -688,6 +702,7 @@ footer {
 
 /* ANIMACIONES */
 
+/*
 @keyframes entranceLeft {
 	0% {
 		opacity: 0;
@@ -839,4 +854,4 @@ footer {
     100% {
         opacity: 0;
     }
-}
+} */
