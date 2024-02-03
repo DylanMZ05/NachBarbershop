@@ -195,6 +195,49 @@ footer {
     }
 }
 
+@media (min-height: 800px) {
+
+    .header-container {
+        height: 100px;
+    }
+
+
+    .header-menu {
+        top: 10px;
+    }
+
+    .header-menu button {
+        font-size: 30px;
+    }
+
+    .header-container img {
+        width: 100px;
+    }
+
+
+    .first-section__title {
+        font-size: 30px;
+    }
+
+    .first-section__title img {
+        width: 20px;
+        height: 50px;
+    }
+
+
+    .footer-redes p {
+        font-size: 25px;
+    }
+
+    .footer-redes__img img {
+        height: 40px;
+    }
+
+    .footer-logo p {
+        font-size: 25px;
+    }
+}
+
 
 .animation{
     transition: transform .8s ease;

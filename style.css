@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body, html {
     font-family: 'Abril Fatface', serif;
@@ -124,6 +125,7 @@ h1, h2, p, b {
     transform: rotate(-45deg);
 }
 
+
 .header-li {
     position: fixed;
     left: 0;
@@ -162,6 +164,10 @@ h1, h2, p, b {
     font-size: 26px;
     font: bold;
 }
+
+
+
+
 
 #servicios, 
 #nosotros, 
@@ -203,7 +209,7 @@ h1, h2, p, b {
 
 .first-section p {
     font-family: 'DM Serif Display', serif;
-    color: #E0C097;
+    color: #ccb269;
     text-shadow: 4px 4px 0px #000000;
     font-size: 40px;
     margin: 0;
@@ -252,9 +258,13 @@ h1, h2, p, b {
     text-align: center;
 }
 
+.nach {
+    color:  rgb(95, 20, 20);
+    text-shadow: 1px 1px #000;
+}
+
 .second-section__lista-precios {
     background-color: #000;
-    padding-bottom: 20px;
     border: 2px solid rgb(34, 6, 6);
     border-radius: 8px;
     box-shadow: 0px 0px 0px 2px rgb(34, 6, 6), 8px 8px 0px 0px rgba(83,83,83,1);
@@ -263,19 +273,16 @@ h1, h2, p, b {
     max-width: 350px;
 }
 
-.second-section__lista-precios h2 {
-    color: #fff;
-    text-align: center;
-    margin: 30px;
-    font-size: 30px;
-
-    text-decoration: underline;
-    text-underline-offset: 6px;
-}
 
 .second-section__lista-precios p {
     color: #fff;
     font-size: 24px;
+    margin: 15px;
+    text-align: center;
+}
+
+.descuento {
+    color: #f7cd5a;
 }
 
 .second-section__lista-precios-cont {
@@ -305,8 +312,8 @@ h1, h2, p, b {
 
 .second-section__img img {
     width: 90vw;
-    max-width: 600px;
-    margin: 10px;
+    max-width: 500px;
+    margin: 20px 10px;
     
     box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
     border: 2px solid #00000068;
@@ -402,6 +409,12 @@ h1, h2, p, b {
     line-height: 2;
 }
 
+.artista,
+.vikingo {
+    color: #f7cd5a;
+    font-size: 20px;
+}
+
 
 
 
@@ -429,7 +442,7 @@ h1, h2, p, b {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000b9;
+    background-color: #000000d8;
     
     width: 90vw;
     max-width: 400px;
@@ -437,8 +450,9 @@ h1, h2, p, b {
     margin: 5px 0;
     
     color: #fff;
+    text-decoration: none;
     font-size: 24px;
-    text-shadow: 2px 2px 0px #000000;
+    text-shadow: 1px 1px 0px #000000;
     box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
     border: 2px solid #00000068;
     border-radius: 16px;
@@ -517,6 +531,7 @@ h1, h2, p, b {
     border-radius: 16px;
 }
 
+
 .fourth-section__socios {
     margin: 10px 60px 20px;
     max-width: 400px;
@@ -530,6 +545,11 @@ h1, h2, p, b {
     text-align: center;
 }
 
+
+.amarillo {
+    color: #f7cd5a;
+    margin-left: 5px;
+}
 
 .google_maps {
     margin-bottom: -4px;
@@ -699,6 +719,95 @@ footer {
 
 
 
+@media (min-height: 800px) {
+    .header-container {
+        height: 100px;
+    }
+
+
+    .header-menu {
+        top: 10px;
+    }
+
+
+    .first-section h1 {
+        font-size: 90px;
+    }
+
+    .first-section p {
+        font-size: 60px;
+    }
+
+    .first-section img {
+        width: 500px;
+    }
+
+
+    .second-section__frase {
+        font-size: 35px;
+    }
+
+
+    .second-section__lista-precios p {
+        font-size: 30px;
+    }
+
+
+
+    .third-section__cartel-equipo {
+        font-size: 26px;
+    }
+
+    .third-section__cartel-equipo img {
+        width: 20px;
+        height: 50px;
+    }
+
+    .third-section__carta {
+        height: 500px;
+    }
+
+    .third-section__carta img {
+        height: 150px;
+        margin: 20px;
+    }
+
+    .third-section__carta h2 {
+        font-size: 30px;
+    }
+
+    .artista,
+    .vikingo {
+        font-size: 25px;
+    }
+
+    .third-section__carta p {
+        font-size: 22px;
+        line-height: 1.5;
+        height: 250px;
+    }
+
+
+
+    .fourth-section p {
+        font-size: 30px;
+    }
+
+
+
+    .footer-redes p {
+        font-size: 25px;
+    }
+
+    .footer-redes__img img {
+        height: 40px;
+    }
+
+    .footer-logo p {
+        font-size: 25px;
+    }
+}
+
 
 /* ANIMACIONES */
 
@@ -720,11 +829,11 @@ footer {
 		opacity: 0;
 		transform: translateX(250px);
 	}
-
+    
 	100% {
-		opacity: 1;
+        opacity: 1;
 		transform: translateX(0);
-	}
+    }
 }
 
 @keyframes entranceBottom {
